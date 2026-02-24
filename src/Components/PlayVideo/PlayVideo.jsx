@@ -4,7 +4,7 @@ import './PlayVideo.css';
 import { API_KEY, value_converter } from '../../data';
 
 const PlayVideo = () => {
-  const { videoId } = useParams();          // 👈 gets ID from /video/:categoryId/:videoId
+  const { videoId } = useParams();          //  gets ID from /video/:categoryId/:videoId
   const [video, setVideo] = useState(null); // API detail
 
   useEffect(() => {
